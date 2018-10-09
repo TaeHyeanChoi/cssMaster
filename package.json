@@ -1,0 +1,30 @@
+{
+  "name": "css-master",
+  "version": "1.0.0",
+  "description": "nomadcoders CSS master class",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaeHyeanChoi/cssMaster.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TaeHyeanChoi/cssMaster/issues"
+  },
+  "homepage": "https://github.com/TaeHyeanChoi/cssMaster#readme",
+  "scripts": {
+    "start": "parcel index.html",
+    "start-c1": "parcel clone1.html"
+  },
+  "dependencies": {
+    "postcss-preset-env": "^5.3.0"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stages": 0
+      }
+    }
+  }
+}
